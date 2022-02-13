@@ -7,7 +7,6 @@
 plugins {
     id 'java'
     id 'maven-publish'
-	id 'application'
 }
 
 repositories {
@@ -23,9 +22,9 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:1.7.32'
 }
 
-group = 'pt.inesctec.m4j'
+group = 'com.github.jopereira'
 version = '0.1-SNAPSHOT'
-description = 'm4j'
+description = 'Java support for Maelstrom'
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 publishing {
